@@ -15,7 +15,7 @@ my_list = [1, 24, 62, 10, 15, 9, 21]
 print(my_list)
 print(len(my_list))
 
-my_other_list = [64, 1.77, "David", "Gautos"]
+my_other_list = [64, 1.77, "Cande", "Palacios"]
 
 print(type(my_list))
 print(type(my_other_list))
@@ -30,7 +30,7 @@ print(my_list.count(30))
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
-print(my_other_list.index("David"))
+print(my_other_list.index("Candela"))
 
 age, height, name, surname = my_other_list
 print(name)
@@ -45,7 +45,7 @@ print(my_list + my_other_list)
 
 # Creación, inserción, actualización y eliminación
 
-my_other_list.append("deivid")
+my_other_list.append("Cande")
 print(my_other_list)
 
 my_other_list.insert(1, "verde")
