@@ -20,7 +20,7 @@ print(my_scape_string)
 
 # Formateo
 
-nombre, apellido, edad = "David", "Gautos", 17
+nombre, apellido, edad = "Candela", "Palacios", 17
 print("Mi nombre es {} {} y mi edad es {}".format(nombre, apellido, edad))
 print("Mi nombre es %s %s y mi edad es %d" % (nombre, apellido, edad))
 print("Mi nombre es " + nombre + " " + apellido + " y mi edad es " + str(edad))
